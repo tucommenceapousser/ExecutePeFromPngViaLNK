@@ -188,7 +188,7 @@ def is_png(file_path):
 # ------------------------------------------------------------------------------------------------------------------------
 
 def is_pe(file_path):
-     if not os.path.isfile(file_path):
+    if not os.path.isfile(file_path):
         raise FileNotFoundError(f"[!] '{file_path}' does not exist")
          
     try:
